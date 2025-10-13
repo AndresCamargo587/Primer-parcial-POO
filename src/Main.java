@@ -10,6 +10,8 @@ public class Main {
             System.out.println("4. Validador de palindromo");
             System.out.println("5. Validador de número capicua");
             System.out.println("6. Conversor de morse a texto");
+            System.out.println("7. Conversor de texto a morse:");
+            System.out.println("8. Gestor caballeros del zodiaco:");
             System.out.print("Seleccione una opción: ");
 
             int opcion = leer.nextInt();
@@ -35,6 +37,10 @@ public class Main {
                     break;
                 case 7:
                     TextoMorse.transformar();
+                    break;
+                case 8:
+                    Caballero.gestor();
+                    Caballero.mostrar();
                     break;
             }
         }
